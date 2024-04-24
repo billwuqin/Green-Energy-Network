@@ -1,0 +1,65 @@
+Charter proposal for Green Ready Energy Efficiency Network (GREEN)
+
+Background and Motivation
+With the growth of networks and the increase of awareness about the environmental impact, it is important to ensure energy efficiency in the operation of network infrastructures.  
+Operators are thus seeking for more information to reflect the power consumption of a network and the contribution of involved nodes.  As described in Section 3.4 of [RFC6988], 
+monitoring energy, power can be required for purposes such as:
+   o designing control loops for energy saving
+   o investigating energy-saving potential
+   o evaluating the effectiveness of energy-saving policies and
+     measures
+   o accounting for the total power received and provided by an entity,
+     a network, or a service
+   o predicting an entity's reliability based on power usage
+   o planning for the next maintenance cycle for an entity
+However, there are no standard mechanisms to report and control power usage or energy consumption of different networking equipment under different network configuration and conditions.
+There were more and more energy monitoring related drafts proposed and especially during IETF 119 meeting, and based on that observation,  some level of general agreement was reached 
+during IVY WG session on energy saving management and also during the power metric side meeting of IETF 119 that green energy BOF should be attempted to clarify the GREEN Energy WG 
+charter focusing on the short term explicit green energy network management effort covering the ongoing GREEN Energy drafts presented in manynetwork management and operation related 
+WGs of IETF OPS area.
+
+Goals and Scope
+GREEN Energy proposed WG is chartered to address the following clear challenges:
+- GREEN Energy Metric related definition and terms, it's prioritized to inherit the existing ones from the previous existing RFCs.
+- YANG model for component level power consumption visibility and energy saving configuration.
+- YANG model for device and system level power consumption visibility and energy saving configuration.
+- YANG model for network level power consumption visibility and energy saving configuration.
+- Power metrics collection and Aggregation framework.
+
+The work is basically meant to build around the power consumption metric observability and energy saving management with reference to IETF EMAN framework and YANG models in IVY and other
+related working groups (e.g., Green Networking work in NMRG).  Within GREEN Energy WG, it’s promising to combine all these concrete approaches into systematical organized dimensions so 
+as to evolve energy efficiency in a clear and coherent manner.
+As for power consumption observability, it’s prioritized for GREEN Energy WG to define the following relevant factors to be collected:
+- port transceivers power info (Optical power, status, etc.)
+- board power info (volt, ampere, watt, temperature, Celsius/ Fahrenheit, status, etc.)
+- chassis power info (available volume, watt, status, etc.)
+- power supply info (type, status, redundancy manner, quantities, etc.)
+- fan info (status, speed, tuning manner, etc.)
+- energy consumption levels (basic, standard, deep, etc.)
+- typical traffic models (ipv4, ipv6, mpls, l3vpn, combinations, etc.)
+- energy efficiency ratios (device, network, etc.)
+Due to their overlapping parts between IETF and ITU-T SG5/ETSI TCEE, mainly related to benchmarking methodologies, IETF will work closely with ITU-T and ETSI for collaboration 
+and consultation.
+
+Out of Scope
+Routing protocols and energy aware routing algorithms considering green energy factors are far from maturation and will not be considered in the scope of this WG, IAB e-impact
+program is a good place to continue to discuss all the related ideas.
+
+Benchmarking methodology for Power consumption in networking devices has been discussed in e-impact IAB meeting and has been agreed to move to BMWG, will also not be considered
+in the scope of this WG.
+
+
+Work Items
+YANG model for power consumption observability and energy saving management.
+Candidate document: draft-li-ivy-power-01; draft-cwbgp-ivy-energy-saving-management-01; draft-petra-path-energy-api
+Power metrics collection and Aggregation framework.
+Candidate document: draft-lindblad-tlm-philatelist-00; draft-opsawg-poweff-01
+GREEN Energy Metric related definition and terms, it's prioritized to inherit the existing ones from the previous existing RFCs
+Candidate document: EMAN Framework and Requirements related RFCs.
+
+Dependencies and Liaisons
+The GREEN Energy working group will closely collaborate with:
+Other IETF Working Groups that address topics related to power consumption observability and energy efficiency management, such as IVY, OPSAWG, bmwg, netmod WGs.
+Other IRTF Research Groups that provide research inputs and reviews, such as PANRG, NMRG.
+The European Telecommunications Standards Institute (ETSI), particularly with regard to the TCEE (Technical Committee of Environment Engineering).
+The International Telecommunication Union (ITU), particularly with regard to ITU-T-SG-5.
