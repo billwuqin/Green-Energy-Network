@@ -25,12 +25,14 @@ GREEN Energy proposed WG is chartered to address the following clear challenges:
 - YANG model for device and system level power consumption visibility and energy saving configuration.
 - YANG model for network level power consumption visibility and energy saving configuration.
 - Power metrics collection and Aggregation framework.
+- ICMP extensions for environmental information collection.
 
 The work is basically meant to build around the power consumption metric observability and energy saving management with reference to IETF EMAN framework and YANG models in IVY and other
 related working groups (e.g., Green Networking work in NMRG).  Within GREEN Energy WG, it’s promising to combine all these concrete approaches into systematical organized dimensions so 
 as to evolve energy efficiency in a clear and coherent manner.
 As for power consumption observability, it’s prioritized for GREEN Energy WG to define the following relevant factors to be collected:
 - port transceivers power info (Optical power, status, etc.)
+- port group power info (power, status, etc.)
 - board power info (volt, ampere, watt, temperature, Celsius/ Fahrenheit, status, etc.)
 - chassis power info (available volume, watt, status, etc.)
 - power supply info (type, status, redundancy manner, quantities, etc.)
@@ -53,7 +55,7 @@ Work Items
 YANG model for power consumption observability and energy saving management.
 Candidate document: draft-li-ivy-power-01; draft-cwbgp-ivy-energy-saving-management-01; draft-petra-path-energy-api
 Power metrics collection and Aggregation framework.
-Candidate document: draft-lindblad-tlm-philatelist-00; draft-opsawg-poweff-01
+Candidate document: draft-lindblad-tlm-philatelist-00; draft-opsawg-poweff-01; draft-pignataro-eimpact-icmp-02
 GREEN Energy Metric related definition and terms, it's prioritized to inherit the existing ones from the previous existing RFCs
 Candidate document: EMAN Framework and Requirements related RFCs.
 
