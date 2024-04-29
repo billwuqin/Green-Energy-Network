@@ -25,7 +25,7 @@ GREEN Energy proposed WG is chartered to address the following clear challenges:
 - YANG model for device and system level power consumption visibility and energy saving configuration.
 - YANG model for network level power consumption visibility and energy saving configuration.
 - Power metrics collection and Aggregation framework.
-- ICMP extensions for environmental information collection.
+- Green oriented NQA, such as ICMP extensions for environmental information collection.
 
 The work is basically meant to build around the power consumption metric observability and energy saving management with reference to IETF EMAN framework and YANG models in IVY and other
 related working groups (e.g., Green Networking work in NMRG).  Within GREEN Energy WG, it’s promising to combine all these concrete approaches into systematical organized dimensions so 
@@ -40,6 +40,7 @@ As for power consumption observability, it’s prioritized for GREEN Energy WG t
 - energy consumption levels (basic, standard, deep, etc.)
 - typical traffic models (ipv4, ipv6, mpls, l3vpn, combinations, etc.)
 - energy efficiency ratios (device, network, etc.)
+- green oriented NQA (packet loss rate,latency,jitter, etc.)
 Due to their overlapping parts between IETF and ITU-T SG5/ETSI TCEE, mainly related to benchmarking methodologies, IETF will work closely with ITU-T and ETSI for collaboration 
 and consultation.
 
@@ -55,9 +56,11 @@ Work Items
 YANG model for power consumption observability and energy saving management.
 Candidate document: draft-li-ivy-power-01; draft-cwbgp-ivy-energy-saving-management-01; draft-petra-path-energy-api
 Power metrics collection and Aggregation framework.
-Candidate document: draft-lindblad-tlm-philatelist-00; draft-opsawg-poweff-01; draft-pignataro-eimpact-icmp-02
+Candidate document: draft-lindblad-tlm-philatelist-00; draft-opsawg-poweff-01
 GREEN Energy Metric related definition and terms, it's prioritized to inherit the existing ones from the previous existing RFCs
 Candidate document: EMAN Framework and Requirements related RFCs.
+GREEN oriented NQA to analyze the impact of the energy efficiency optimization to the service quality.
+Candidate document: draft-pignataro-eimpact-icmp-02
 
 Dependencies and Liaisons
 The GREEN Energy working group will closely collaborate with:
