@@ -51,11 +51,11 @@ Work Items
 
 YANG model for power consumption observability and energy saving management.
    o Candidate documents: draft-li-ivy-power; draft-cwbgp-ivy-energy-saving-management; draft-petra-path-energy-api
-     Power metrics collection and aggregation framework.
+Power metrics collection and aggregation framework.
    o Candidate documents: draft-lindblad-tlm-philatelist-00; draft-opsawg-poweff-01
-     Energy metric definitions and terms
+Energy metric definitions and terms
    o Candidate documents: EMAN Framework and Requirements related RFCs.
-     Green-oriented NQA to understand the impact of energy efficiency optimization on service quality.
+Green-oriented NQA to understand the impact of energy efficiency optimization on service quality.
    o Candidate document: draft-pignataro-eimpact-icmp
 
 Dependencies and Liaisons
