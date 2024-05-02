@@ -1,0 +1,20 @@
+
+The name of the list: GREEN Energy Efficiency Network
+The URL of email address of the list: green@ietf.org 
+ 
+A short description of the purpose of the list: 
+ 
+A list to discuss and coordinate standard mechanisms to measure,report or control energy consumption of network equipment 
+under different network configurations and conditions.
+ 
+A more detailed explanation of the purpose of the list:
+ 
+The mailing list will discuss and coordinate standard mechanisms to measure,report or control energy consumption of network equipment
+under different network configurations and conditions. 
+The energy consumption information include port transceiver power information, board power information,
+chassis power informatin, power supply information,energy consumption level, traffic model, eneergy
+efficiency ratio, etc. The network configuration(e.g., the number of port, interface type) and conditions (e.g., traffic attribute)
+set environment for energy metric measurement and make sure measurment results repeatable.
+ 
+The mailing list discussions are also intended to establish common understanding of the Terms and definitions related to energy metrcs and
+the impact of energy efficiency optimization on service quality.
