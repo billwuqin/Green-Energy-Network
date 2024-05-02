@@ -2,15 +2,17 @@ Charter proposal for Green Ready Energy Efficiency Network (GREEN)
 
 Background and Motivation
 
-There are increasing concerns to reduce energy use in all fields with a view to limit the impact on the environment. 
-As the size and use of networks grow, it is of interest to network operators to understand the power consumption of 
-the whole network and the contribution made by each of the network nodes. 
+As the imperative to reduce energy consumption gains momentum, network operators increasingly
+focus on understanding power usage across nodes and devices within their networks. 
+Green networking encompasses deploying and managing network infrastructures to minimize 
+environmental impact. This will involve technologies to monitor power consumption, use control
+strategies to lower carbon emissions, and foster sustainability in network operations.
 
-RFC 6988 sets out the requirements for monitoring and controlling energy use by network devices.  It also provides 
-a number of use cases for monitoring power use. However, there are no standard mechanisms to measure, report or control energy
-consumption of network equipment under different network configurations and conditions. Without such mechanisms, it 
-is impossible to build a general, vendor-independent management system that operates a network in a power-efficient 
-way.
+RFC 6988 set out crucial requirements and guidelines for monitoring and managing energy usage in network devices, 
+offering both prerequisites and practical implementation scenarios. However, the absence of 
+standardized interfaces for measuring, reporting, and controlling energy consumption across 
+diverse network setups remains a significant challenge. Therefore, new models and methodologies are
+required to optimize energy efficiency across the network.
 
 Goals and Scope
 
