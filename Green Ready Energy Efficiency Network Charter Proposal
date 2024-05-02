@@ -7,7 +7,7 @@ As the size and use of networks grow, it is of interest to network operators to 
 the whole network and the contribution made by each of the network nodes. 
 
 RFC 6988 sets out the requirements for monitoring and controlling energy use by network devices.  It also provides 
-a number of use cases for monitoring power use. However, there are no standard mechanisms to report or control energy
+a number of use cases for monitoring power use. However, there are no standard mechanisms to measure, report or control energy
 consumption of network equipment under different network configurations and conditions. Without such mechanisms, it 
 is impossible to build a general, vendor-independent management system that operates a network in a power-efficient 
 way.
