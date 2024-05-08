@@ -47,16 +47,17 @@ and are not in scope for this WG.
 Benchmarking methodology for power consumption in networking devices belongs in the BMWG, and is not in scope
 for this WG.
 
+Specification of green-oriented Network Quality Analysis (NQA) techniques to understand the impact of energy 
+efficiency optimization on service quality., such as ICMP extensions for collection of environmental information.
+
 Work Items
 
+Energy metric definitions and terms
+   o Candidate documents: EMAN Framework and Requirements related RFCs.
 YANG model for power consumption observability and energy saving management.
    o Candidate documents: draft-li-ivy-power; draft-cwbgp-ivy-energy-saving-management; draft-petra-path-energy-api
 Power metrics collection and aggregation framework.
    o Candidate documents: draft-lindblad-tlm-philatelist-00; draft-opsawg-poweff-01
-Energy metric definitions and terms
-   o Candidate documents: EMAN Framework and Requirements related RFCs.
-Green-oriented NQA to understand the impact of energy efficiency optimization on service quality.
-   o Candidate document: draft-pignataro-eimpact-icmp
 
 Dependencies and Liaisons
 The GREEN Energy working group will closely collaborate with:
