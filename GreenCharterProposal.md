@@ -23,6 +23,9 @@ Therefore, it is necessary to implement a framework that can normalize legacy me
 either dynamic or static data to comply with the newly established standard metrics. 
 This framework will enable the incremental deployment of these new metrics and mechanisms.
 
+Tony suggested that metrics are important, but there is more we should
+be doing, putting solutions in place. Actions vs Measurements. Rob
+pointed out Tony's draft around actions that can help save energy.
 
 
 Goals and Scope
@@ -49,10 +52,8 @@ efficiency optimization on service quality, such as ICMP extensions for collecti
 **Milestones:** 
 
    - Develop and agree upon a standardized set of terminologies and definitions related to energy and sustainability in networking (Q4 2024). 
-   - Propose and ratify an architectural framework for energy and sustainability reporting (Q1 2025). 
-   - Draft and publish YANG models for operational energy efficiency and lifecycle assessment metrics (Q2 2025). 
+   - Draft and publish YANG models for operational energy efficiency and lifecycle assessment metrics. While metrics are valuable, they should be leveraged to guide and inspire changes in operational practices to improve energy efficiency and sustainability practices. (Q2 2025)     - Propose and ratify an architectural framework for energy and sustainability reporting (Q3 2025). 
    - Demonstrate initial implementations and use cases of the YANG models in network devices (Q4 2025). 
-
 
 
 **Work Items**
