@@ -5,8 +5,8 @@ Background and Motivation
 As the imperative to reduce energy consumption gains momentum, network operators increasingly
 focus on understanding power usage across nodes and devices within their networks. 
 Green networking encompasses deploying and managing network infrastructures to minimize 
-environmental impact. This will involve technologies to monitor power consumption, use control
-strategies to lower carbon emissions, and foster sustainability in network operations.
+environmental impact. This will involve technologies to monitor energy consumption, use control
+strategies to improve energy efficiency, and foster sustainability in network operations.
 
 RFC 6988 set out crucial requirements and guidelines for monitoring and managing energy usage in network devices, 
 offering both prerequisites and practical implementation scenarios. However, the absence of 
@@ -16,16 +16,13 @@ required to optimize energy efficiency across the network.
 
 Improving operational energy efficiency, as part of global sustainability efforts, may also necessitate 
 enhancing inventory attributes, thereby contributing to a more sustainable lifecycle for network devices.
+. It should also be about actually putting in place technology that improves our sustainability and power consumption.
 
 As the standardized set of models and metrics is being developed, a transition period will arise where a 
 substantial portion of the equipment in the field may not support the new standardized metrics. 
 Therefore, it is necessary to implement a framework that can normalize legacy metrics—sourced from 
 either dynamic or static data to comply with the newly established standard metrics. 
 This framework will enable the incremental deployment of these new metrics and mechanisms.
-
-Tony suggested that metrics are important, but there is more we should
-be doing, putting solutions in place. Actions vs Measurements. Rob
-pointed out Tony's draft around actions that can help save energy.
 
 
 Goals and Scope
@@ -52,7 +49,8 @@ efficiency optimization on service quality, such as ICMP extensions for collecti
 **Milestones:** 
 
    - Develop and agree upon a standardized set of terminologies and definitions related to energy and sustainability in networking (Q4 2024). 
-   - Draft and publish YANG models for operational energy efficiency and lifecycle assessment metrics. While metrics are valuable, they should be leveraged to guide and inspire changes in operational practices to improve energy efficiency and sustainability practices. (Q2 2025)     - Propose and ratify an architectural framework for energy and sustainability reporting (Q3 2025). 
+   - Draft and publish YANG models for operational energy efficiency and lifecycle assessment metrics. While metrics are valuable, they should be leveraged to guide and inspire changes in operational practices to improve energy efficiency and sustainability practices. (Q2 2025)
+   - Propose and ratify an architectural framework for energy and sustainability reporting (Q3 2025). 
    - Demonstrate initial implementations and use cases of the YANG models in network devices (Q4 2025). 
 
 
