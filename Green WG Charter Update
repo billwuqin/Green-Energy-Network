@@ -6,18 +6,19 @@ As the imperative to improve energy efficiency gains momentum (e.g., ITU-T SG5 h
 of energy efficiency metrics, KPI, ETSI TCEE works on environmental efficiency related standards covering 
 server, data storage, network equipments), network operators increasingly focus on understanding energy 
 usage across links, nodes and devices within their networks. 
-Green networking encompasses deploying and managing network infrastructures to 
-reduce energy consumption. This will involve technologies to monitor energy consumption, use energy efficiency 
-strategies to investigate energy saving potential and evaluate the effectiveness of energy saving polices and
-measures based on energy saving result visibility, energy consumption visibility in network operations.
+
+Green networking encompasses deploying and managing network infrastructures to reduce energy consumption. 
+This will involve technologies to monitor energy consumption, use energy efficiency strategies to investigate
+energy saving potential and evaluate the effectiveness of energy saving polices and measures based on energy 
+saving result visibility, energy consumption visibility in network operations.
 
 RFC 6988 set out crucial requirements and guidelines for monitoring and managing energy usage in network devices, 
 offering both prerequisites and practical implementation scenarios. More recently, RFC 9547 highlighted the need 
 of further work on metrics, measurements, ability to slow down and sleep devices or part of them, etc. However, 
 there is no consistent view for terminologies to categorize various type of metrics and measurements.
 
-In addition, the absence of  standardized data format for measuring, reporting, and controlling energy consumption across 
-diverse network setups remains a significant challenge. Therefore, new models and methodologies are required to 
+In addition, the absence of  standardized data format for measuring, reporting, and controlling energy consumption
+across diverse network setups remains a significant challenge. Therefore, new models and methodologies are required to 
 optimize energy efficiency across the network.
 
 
@@ -47,18 +48,22 @@ The GREEN WG will prioritize definitions of the following factors:
 
 Out of Scope
 Areas that will not be considered as part of the initial short-term tasks of the working group:
-o Framework for power metric collection and aggregation.
-O network equipment sustainability metrics based on such as circular design strategies and 
-  environmental footprint need to be further investigated in e-impact program considering
-  practices in ITU-T SG5 and ETSI TCEE, so that it's not in the scope of this charter.
 O Routing protocols and energy aware routing algorithms considering green energy factors 
   are far from mature and are not in scope for this WG. 
+
+o Framework for power metric collection and aggregation since this related to protocol work.
+
 O Benchmarking methodology for power consumption in networking devices belongs in the BMWG, 
   and is not in scope for this WG.
+
 O Specification of green-oriented Network Quality Analysis (NQA) techniques to understand 
   the impact of energy efficiency optimization on service quality., such as ICMP extensions 
   for collection of environmental information.
 
+O network equipment sustainability metrics such carbon omission, environmental impacts related metrics 
+  throughout the life cycle of the network device based on such as circular design strategies and 
+  environmental footprint need to be further investigated in e-impact program considering
+  practices in ITU-T SG5 and ETSI TCEE, so that it's not in the scope of this charter.
 
 Work Items
 
