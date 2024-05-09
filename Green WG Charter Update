@@ -2,7 +2,7 @@ Charter proposal for Green Energy Efficiency Network (GREEN)
 
 Background and Motivation
 
-As the imperative to improve energy efficiency gains momentum (e.g., ITU-T SG5 has been tasked with develop 
+As the imperative to improve energy efficiency gains momentum (e.g., ITU-T SG5 has been tasked with development 
 of energy efficiency metrics, KPI, ETSI TCEE works on environmental efficiency related standards covering 
 server, data storage, network equipments), network operators increasingly focus on understanding energy 
 usage across links, nodes and devices within their networks. 
@@ -25,7 +25,7 @@ optimize energy efficiency across the network.
 Goals and Scope
 
 GREEN WG is chartered to provide the following short term deliverables:
-   o Well Terms and definitions related to energy management related metrics. Where possible, terms and definitions 
+   o Well known Terms and definitions related to energy management related metrics. Where possible, terms and definitions 
      existing in prior RFCs will be reused.
 
    o A YANG model for component-level/device-level/network-level visibility of power consumption and configuration 
@@ -51,10 +51,10 @@ Areas that will not be considered as part of the initial short-term tasks of the
 O Routing protocols and energy aware routing algorithms considering green energy factors 
   are far from mature and are not in scope for this WG. 
 
-o Framework for power metric collection and aggregation since this related to protocol work.
+o Framework for power metric collection and aggregation since this is related to protocol work.
 
 O Benchmarking methodology for power consumption in networking devices belongs in the BMWG, 
-  and is not in scope for this WG.
+  and is not in the scope for this WG.
 
 O Specification of green-oriented Network Quality Analysis (NQA) techniques to understand 
   the impact of energy efficiency optimization on service quality., such as ICMP extensions 
@@ -63,7 +63,7 @@ O Specification of green-oriented Network Quality Analysis (NQA) techniques to u
 O network equipment sustainability metrics such carbon omission, environmental impacts related metrics 
   throughout the life cycle of the network device based on such as circular design strategies and 
   environmental footprint need to be further investigated in e-impact program considering
-  practices in ITU-T SG5 and ETSI TCEE, so that it's not in the scope of this charter.
+  practices in ITU-T SG5 and ETSI TCEE, so that it's not in the scope for this WG.
 
 Work Items
 
@@ -81,5 +81,5 @@ Other IRTF Research Groups that provide research inputs and reviews, including P
 Due to the overlap between IETF and ITU-T SG5/ETSI TCEE, mainly related to benchmarking methodologies, the GREEN
 WG will liaise with ITU-T and ETSI for collaboration and consultation,as follows:
    o The European Telecommunications Standards Institute (ETSI), particularly with regard to the TCEE (Technical
-     Committee of Environment Engineering).
+     Committee of Environmental Engineering).
    o The International Telecommunication Union (ITU), particularly with regard to ITU-T-SG-5.
