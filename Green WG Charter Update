@@ -15,7 +15,7 @@ saving result visibility, energy consumption visibility in network operations.
 RFC 6988 set out crucial requirements and guidelines for monitoring and managing energy usage in network devices, 
 offering both prerequisites and practical implementation scenarios. More recently, RFC 9547 highlighted the need 
 of further work on metrics, measurements, ability to slow down and sleep devices or part of them, etc. However, 
-there is no consistent view for terminologies to categorize various type of metrics and measurements.
+there is no consistent view in the industry for terminologies to categorize various type of metrics and measurements.
 
 In addition, the absence of  standardized data format for measuring, reporting, and controlling energy consumption
 across diverse network setups remains a significant challenge. Therefore, new models and methodologies are required to 
