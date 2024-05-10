@@ -1,6 +1,6 @@
 Charter proposal for Energy Metric for Energy Efficiency Network (GREEN)
 
-Background and Motivation
+**Background and Motivation**
 
 As the imperative to improve energy efficiency gains momentum (e.g., ITU-T SG5 has been tasked with development 
 of energy efficiency metrics, KPI, ETSI TCEE works on environmental efficiency related standards covering 
@@ -28,7 +28,7 @@ either dynamic or static data to comply with the newly established standard metr
 This framework will enable the incremental deployment of these new metrics and mechanisms.
 
 
-Goals and Scope
+**Goals and Scope**
 
 GREEN WG is chartered to concentrate on short-term deliverables such as:
    - Terms and definitions related to energy metrics. Where possible, terms and definitions existing in prior RFCs 
@@ -60,7 +60,7 @@ The GREEN WG will prioritize definitions of the following factors:
    
    - energy efficiency ratios (device, network, etc.)
 
-Out of Scope
+**Out of Scope**
    - At this time, routing protocols and energy aware routing algorithms considering green energy factors are far from mature
 and are not in scope for this WG. 
    - Benchmarking methodology for power consumption in networking devices belongs in the BMWG, and is not in scope
