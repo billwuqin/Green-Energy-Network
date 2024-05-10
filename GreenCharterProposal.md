@@ -107,7 +107,6 @@ management, such as IVY, OPSAWG, NETMOD WGs.
    - Industry stakeholders and regulatory bodies to ensure alignment with current and future regulatory frameworks. 
 
 The GREEN WG will liaise with ITU-T and ETSI on benchmarking methodologies for collaboration and consultation,as follows:
-
       o The European Telecommunications Standards Institute (ETSI), particularly with regard to the TCEE (Technical
      Committee of Environment Engineering).
      
