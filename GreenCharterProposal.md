@@ -98,7 +98,9 @@ management, such as IVY, OPSAWG, NETMOD WGs.
    - Industry stakeholders and regulatory bodies to ensure alignment with current and future regulatory frameworks. 
    - Due to the overlap between IETF and ITU-T SG5/ETSI TCEE, mainly related to benchmarking methodologies, the GREEN
 WG will liaise with ITU-T and ETSI for collaboration and consultation,as follows:
+
       o The European Telecommunications Standards Institute (ETSI), particularly with regard to the TCEE (Technical
      Committee of Environment Engineering).
+     
       o The International Telecommunication Union (ITU), particularly with regard to ITU-T-SG-5.
 
