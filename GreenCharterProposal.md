@@ -37,7 +37,7 @@ GREEN WG is chartered to concentrate on short-term deliverables such as:
 
 
 Out of Scope
-   - Routing protocols and energy aware routing algorithms considering green energy factors are far from mature
+   - At this time, routing protocols and energy aware routing algorithms considering green energy factors are far from mature
 and are not in scope for this WG. 
    - Benchmarking methodology for power consumption in networking devices belongs in the BMWG, and is not in scope
 for this WG.
@@ -59,7 +59,7 @@ efficiency optimization on service quality, such as ICMP extensions for collecti
 Terminology 
    - Candidate documents: draft-cparsk-eimpact-sustainability-considerations
 Energy metrics collection and aggregation framework.
-   - Candidate documents: draft-lindblad-tlm-philatelist-00, draft-kll-yang-label-tsdb, draft-cx-opsawg-green-metrics
+   - Candidate documents: draft-lindblad-tlm-philatelist, draft-kll-yang-label-tsdb, draft-cx-opsawg-green-metrics
 Use Cases:
    - Candidate documents: draft-almprs-sustainability-insights
 YANG model for energy consumption observability and energy saving management.
