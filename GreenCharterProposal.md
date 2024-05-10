@@ -18,7 +18,8 @@ In addition, the absence of standardized interfaces for measuring, reporting, an
 
 Improving operational energy efficiency, as part of global sustainability efforts, may also necessitate 
 enhancing inventory attributes, thereby contributing to a more sustainable lifecycle for network devices.
-. It should also be about actually putting in place technology that improves our energy efficiency and sustainability.
+It should also be about actually putting in place technology that improves our energy efficiency and 
+sustainability.
 
 As the standardized set of models and metrics is being developed, a transition period will arise where a 
 substantial portion of the equipment in the field may not support the new standardized metrics. 
