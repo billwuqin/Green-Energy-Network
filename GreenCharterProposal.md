@@ -44,21 +44,21 @@ efficiency in a clear and coherent manner.
 
 The GREEN WG will prioritize definitions of the following factors:
 
-   o port transceiver power information (optical power, status, etc.)
+   - port transceiver power information (optical power, status, etc.)
    
-   o port group power information (power, status, etc.)
+   - port group power information (power, status, etc.)
    
-   o board power information (Volt, Ampere, Watt, temperature, status, etc.)
+   - board power information (Volt, Ampere, Watt, temperature, status, etc.)
    
-   o chassis power information (available volume, Watt, status, etc.)
+   - chassis power information (available volume, Watt, status, etc.)
    
-   o power supply information (type, status, redundancy manner, quantities, etc.)
+   - power supply information (type, status, redundancy manner, quantities, etc.)
    
-   o fan information (status, speed, tuning manner, etc.)
+   - fan information (status, speed, tuning manner, etc.)
    
-   o energy consumption levels (basic, standard, deep, etc.)
+   - energy consumption levels (basic, standard, deep, etc.)
    
-   o energy efficiency ratios (device, network, etc.)
+   - energy efficiency ratios (device, network, etc.)
 
 Out of Scope
    - At this time, routing protocols and energy aware routing algorithms considering green energy factors are far from mature
@@ -107,8 +107,9 @@ management, such as IVY, OPSAWG, NETMOD WGs.
    - Industry stakeholders and regulatory bodies to ensure alignment with current and future regulatory frameworks. 
 
 The GREEN WG will liaise with ITU-T and ETSI on benchmarking methodologies for collaboration and consultation,as follows:
-      o The European Telecommunications Standards Institute (ETSI), particularly with regard to the TCEE (Technical
+
+   - The European Telecommunications Standards Institute (ETSI), particularly with regard to the TCEE (Technical
      Committee of Environment Engineering).
      
-      o The International Telecommunication Union (ITU), particularly with regard to ITU-T-SG-5.
+   - The International Telecommunication Union (ITU), particularly with regard to ITU-T-SG-5.
 
