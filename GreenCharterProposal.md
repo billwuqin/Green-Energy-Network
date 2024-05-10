@@ -43,13 +43,21 @@ in the NMRG. The GREEN WG, will combine all these concrete approaches systematic
 efficiency in a clear and coherent manner.
 
 The GREEN WG will prioritize definitions of the following factors:
+
    o port transceiver power information (optical power, status, etc.)
+   
    o port group power information (power, status, etc.)
+   
    o board power information (Volt, Ampere, Watt, temperature, status, etc.)
+   
    o chassis power information (available volume, Watt, status, etc.)
+   
    o power supply information (type, status, redundancy manner, quantities, etc.)
+   
    o fan information (status, speed, tuning manner, etc.)
+   
    o energy consumption levels (basic, standard, deep, etc.)
+   
    o energy efficiency ratios (device, network, etc.)
 
 Out of Scope
