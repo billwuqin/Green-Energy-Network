@@ -96,8 +96,8 @@ management, such as IVY, OPSAWG, NETMOD WGs.
    - Other IRTF Research Groups that provide research inputs and reviews, including PANRG, NMRG.
    - The IAB e-impact program to identify and receive short term metrics related work and to propose longer term problems for further study. 
    - Industry stakeholders and regulatory bodies to ensure alignment with current and future regulatory frameworks. 
-   - Due to the overlap between IETF and ITU-T SG5/ETSI TCEE, mainly related to benchmarking methodologies, the GREEN
-WG will liaise with ITU-T and ETSI for collaboration and consultation,as follows:
+
+The GREEN WG will liaise with ITU-T and ETSI on benchmarking methodologies for collaboration and consultation,as follows:
 
       o The European Telecommunications Standards Institute (ETSI), particularly with regard to the TCEE (Technical
      Committee of Environment Engineering).
