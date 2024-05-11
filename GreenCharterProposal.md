@@ -31,42 +31,22 @@ This framework will enable the incremental deployment of these new metrics and m
 **Goals and Scope**
 
 GREEN WG is chartered to concentrate on short-term deliverables such as:
-   - Terms and definitions related to energy metrics. Where possible, terms and definitions existing in prior RFCs 
-     will be reused.
+   - Terms and definitions related to energy metrics. Where possible, terms and definitions existing in prior RFCs will be reused.
    - Reporting energy usage at the component, device and network layers through operational YANG models. 
    - Creating YANG data models that complete metrics for lifecycle assesment, allowing network devices and components to support circular economy strategies.
    - Providing configuration or YANG RPCs to influence and optimize energy usage in network devices, including energy saving capabilities. 
    - A framework that will enable the collection, aggregation and consumption for mentioned metrics and attributes.
 
-The work builds upon YANG models developed in the IVY WG, hardware YANG model developed in NETMOD WG, as well as other work 
-in the NMRG. The GREEN WG, will combine all these concrete approaches systematically so as to evolve energy 
+It may be complex and time-consuming to attempt to address all issues related to power consumption and energy efficiency in one go, but it can be practical to select building-blocks that will contribute to the larger effort. The GREEN WG will combine concrete approaches systematically so as to evolve energy efficiency metrics in a clear and coherent manner.
+The GREEN WG, will combine all these concrete approaches systematically so as to evolve energy 
 efficiency in a clear and coherent manner.
-
-The GREEN WG will prioritize definitions of the following factors:
-
-   - port transceiver power information (optical power, status, etc.)
-   
-   - port group power information (power, status, etc.)
-   
-   - board power information (Volt, Ampere, Watt, temperature, status, etc.)
-   
-   - chassis power information (available volume, Watt, status, etc.)
-   
-   - power supply information (type, status, redundancy manner, quantities, etc.)
-   
-   - fan information (status, speed, tuning manner, etc.)
-   
-   - energy consumption levels (basic, standard, deep, etc.)
-   
-   - energy efficiency ratios (device, network, etc.)
 
 **Out of Scope**
    - At this time, routing protocols and energy aware routing algorithms considering green energy factors are far from mature
 and are not in scope for this WG. 
    - Benchmarking methodology for power consumption in networking devices belongs in the BMWG, and is not in scope
 for this WG.
-   - Specification of green-oriented Network Quality Analysis (NQA) techniques to understand the impact of energy 
-efficiency optimization on service quality, such as ICMP extensions for collection of environmental information.
+   - Specification of green-oriented Network Quality Analysis (NQA) techniques to understand the impact of energy efficiency optimization on service quality, such as ICMP extensions for collection of environmental information.
    - Regulatory Reporting, Compliance, and Corporate Responsibility Disclosure 
 
 
@@ -94,6 +74,7 @@ Energy metrics collection and aggregation framework.
 
 Use Cases:
    - Candidate documents: draft-almprs-sustainability-insights
+
 
 **Dependencies and Liaisons**
 
