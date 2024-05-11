@@ -1,19 +1,30 @@
-Charter proposal for Green Ready Energy Efficiency Network (GREEN)
+Charter proposal for Energy Metric for Energy Efficiency Network (GREEN)
 
 **Background and Motivation**
 
-As the imperative to improve energy efficiency gains momentum (e.g., ITU-T SG5 has been tasked with development of energy efficiency metrics, KPI, ETSI TCEE works on environmental efficiency related standards covering server, data storage, network equipments), network operators increasingly focus on understanding energy consumption usage across links,nodes and devices within their networks. 
-Green networking encompasses deploying and managing network infrastructures to reduce energy consumption, minimize environmental impact. This will involve technologies to monitor energy consumption, evaluate the effectiveness of energy saving polices, use control strategies to improve energy efficiency, and foster sustainability in network operations.
+As the imperative to improve energy efficiency gains momentum (e.g., ITU-T SG5 has been tasked with development 
+of energy efficiency metrics, KPI, ETSI TCEE works on environmental efficiency related standards covering 
+server, data storage, network equipments), network operators increasingly
+focus on understanding energy consumption usage across links,nodes and devices within their networks. 
+Green networking encompasses deploying and managing network infrastructures to reduce energy consumption,
+minimize environmental impact. This will involve technologies to monitor energy consumption, evaluate the
+effectiveness of energy saving polices, use control strategies to improve energy efficiency, and foster 
+sustainability in network operations.
 
-RFC 6988 provides some requirements and guidelines for monitoring and managing energy usage in network devices. 
-The GREEN working group will examine that work with a view to re-using it where possible, and developing new requirements according to current use cases and applications. More recently, RFC 9547 highlighted the need of further work on metrics, measurements, ability to slow down and sleep devices or part of them, etc. However, there is no consistent view in the industry for terminologies to categorize various type of metrics and measurements.
+RFC 6988 provides some requirements and guidelines for monitoring and managing energy usage in network devices. The GREEN working group will examine that work with a view to re-using it where possible, and developing new requirements according to current use cases and applications. More recently, RFC 9547 highlighted the need 
+of further work on metrics, measurements, ability to slow down and sleep devices or part of them, etc. However, 
+there is no consistent view in the industry for terminologies to categorize various type of metrics and measurements.
 In addition, the absence of standardized interfaces for measuring, reporting, and controlling energy consumption across diverse network setups remains a significant challenge. Therefore, new data models, metrics and methods are required to optimize energy efficiency across the network.
 
-Improving operational energy efficiency, as part of global sustainability efforts, may also necessitate enhancing inventory attributes, thereby contributing to a more sustainable lifecycle for network devices.
-It should also be about actually putting in place technology that improves our energy efficiency and sustainability.
+Improving operational energy efficiency, as part of global sustainability efforts, may also necessitate 
+enhancing inventory attributes, thereby contributing to a more sustainable lifecycle for network devices.
+It should also be about actually putting in place technology that improves our energy efficiency and 
+sustainability.
 
-As the standardized set of models and metrics is being developed, a transition period will arise where a substantial portion of the equipment in the field may not support the new standardized metrics. 
-Therefore, it is necessary to implement a framework that can normalize legacy metrics—sourced from either dynamic or static data to comply with the newly established standard metrics. 
+As the standardized set of models and metrics is being developed, a transition period will arise where a 
+substantial portion of the equipment in the field may not support the new standardized metrics. 
+Therefore, it is necessary to implement a framework that can normalize legacy metrics—sourced from 
+either dynamic or static data to comply with the newly established standard metrics. 
 This framework will enable the incremental deployment of these new metrics and mechanisms.
 
 
@@ -27,7 +38,8 @@ GREEN WG is chartered to concentrate on short-term deliverables such as:
    - A framework that will enable the collection, aggregation and consumption for mentioned metrics and attributes.
 
 It may be complex and time-consuming to attempt to address all issues related to power consumption and energy efficiency in one go, but it can be practical to select building-blocks that will contribute to the larger effort. The GREEN WG will combine concrete approaches systematically so as to evolve energy efficiency metrics in a clear and coherent manner.
-
+The GREEN WG, will combine all these concrete approaches systematically so as to evolve energy 
+efficiency in a clear and coherent manner.
 
 **Out of Scope**
    - At this time, routing protocols and energy aware routing algorithms considering green energy factors are far from mature
@@ -51,11 +63,11 @@ for this WG.
 
 **Work Items**
 
-Terminology 
-   - Candidate documents: draft-cparsk-eimpact-sustainability-considerations
+Terminology and Metric Definitions.
 
 YANG model for energy consumption observability and energy saving management.
-   - Candidate documents: draft-li-ivy-power; draft-cwbgp-ivy-energy-saving-management; draft-petra-path-energy-api; draft-opsawg-poweff
+   - Candidate documents: draft-li-ivy-power; draft-cwbgp-ivy-energy-saving-management; draft-petra-path-energy-api;
+draft-opsawg-poweff
 
 Energy metrics collection and aggregation framework.
    - Candidate documents: draft-lindblad-tlm-philatelist, draft-kll-yang-label-tsdb, draft-cx-opsawg-green-metrics
